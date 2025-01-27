@@ -22,7 +22,7 @@ public class PessoaModel {
     private String telefone;
 
     @Enumerated(EnumType.STRING)
-    private TipoPessoa tipoPessoa; // Enum que pode categorizar, como "FÍSICA" ou "JURÍDICA"
+    private TipoPessoa tipoPessoa; 
 
     public PessoaModel(DadosCadastroPessoa dados) {
         this.nome = dados.getNome();

@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 public class DadosCadastroPessoa {
 
-    private String apelido;  // Defina o apelido aqui
+    private String apelido;  
     private String nome;
     private String email;
     private String telefone;
