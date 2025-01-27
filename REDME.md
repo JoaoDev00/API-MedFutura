@@ -1,10 +1,10 @@
-# DESAFIO API BASICA
+# API MedFutura
 
-# Bom dia , boa tarde ou boa noite, me chamo João Victor é um prazer conhecê-lo(a)!
+Esta é uma API desenvolvida em Java 17. A API permite gerenciar informações de pessoas, incluindo cadastro, consulta e atualização de dados.
 
-# Abaixo está oque exatamente fiz para chegar em tal resultado.
-# Vale lembrar que eu usei o Insomnia para testar todas as requisições e aparentimente está tudo correto :)
-# Oque eu fiz foi usar os metodos GET, POST, PUT e DELETE para criar, ler, atualizar e deletar dados e com isso tambem usando comandos como @GetMapping , @PostMapping, @PutMapping e @DeleteMapping para criar as rotas para cada metodo. Abaixo tem uma explição mais detalha e uma pequena consideração final  
+# Abaixo está o que exatamente fiz para chegar em tal resultado.
+# Vale lembrar que eu usei o Insomnia para testar todas as requisições e aparentemente está tudo correto :)
+# O que eu fiz foi usar os métodos GET, POST, PUT e DELETE para criar, ler, atualizar e deletar dados e com isso também usando comandos como @GetMapping, @PostMapping, @PutMapping e @DeleteMapping para criar as rotas para cada método. Abaixo tem uma explicação mais detalhada e uma pequena consideração final  
 
 ## Objetivo
 O objetivo desta implementação foi criar uma API para o gerenciamento de pessoas, permitindo realizar operações de criação, leitura, atualização e exclusão (CRUD) com os dados das pessoas. As informações sobre cada pessoa incluem nome, apelido, email, telefone e tipo de pessoa (Física ou Jurídica).
@@ -50,7 +50,6 @@ public class PessoaModel {
     private String telefone;
     private TipoPessoa tipoPessoa;
 }
+```
 
-
-
-// Muito obrigado pela oportunidade e pelo desafio 
+<!-- Muito obrigado pela oportunidade e pelo desafio. -->
